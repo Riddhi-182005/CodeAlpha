@@ -1,13 +1,7 @@
 import os
 import shutil
 
-# Define file type categories
-FILE_CATEGORIES = {
-    "Images": [".jpg", ".jpeg", ".png", ".gif"],
-    "Documents": [".pdf", ".docx", ".txt", ".xlsx"],
-    "Videos": [".mp4", ".mov", ".avi"],
-    "Archives": [".zip", ".rar", ".tar"],
-}
+import skimage
 
 # Folder to organize (change this path accordingly)
 DOWNLOADS_FOLDER = input("enter the path of your file  :")
